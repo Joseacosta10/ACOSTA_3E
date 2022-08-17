@@ -1,0 +1,88 @@
+{% extends 'herencias/computadora.html' %}
+{% block titulo %}
+PC_COMPUTADORA MOVILES
+{% endblock %}
+{% block contenido  %}
+<h3>ESTAMOS EN LA PAGINA DE CONTACTO</h3>
+
+{% load static %}
+<center>
+<IMG src="{% static 'core/imagen_jose/CONT.jpg' %}">
+    </center>
+
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+
+}
+
+td, th {
+  border: 1px solid #0d0e0e;
+  text-align: left;
+  padding: 14px;
+  font-size: 19pt;
+  color : #f8f4f4;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(33, 136, 111);
+  font-size: 19pt;
+  color : #070707;
+}
+</style>
+</head>
+<body>
+<h3>FORMULARIO</h3>
+
+
+<table>
+  <tr>
+    <th>NOMBRE:</th>
+    <th>TELEFONO </th>
+    <th>CORREO:</th>
+      <th>ASUNTO:</th>
+      <th>MENSAJE:</th>
+  </tr>
+
+    <tr>
+    <th>JOSE ROBERTO ACOSTA FRANCO</th>
+    <th>0983816911 </th>
+    <th>ESTIBASACOSTA8@GMAIL.COM</th>
+      <th>COMPRAS</th>
+      <th>BUENOS DIAS,ME GUSTARIA COMPRA UN LAPTO APPLE Y IPHONE 13</th>
+  </tr>
+
+  <tr>
+    <th>FIORELLA GURUMENDI</th>
+    <th>09811116911 </th>
+    <th>FIRU_GURU@GMAIL.COM</th>
+      <th>COMPRAS</th>
+      <th>BUENAS TARDE,ME GUSTARIA INFORMACION SOBRE EL IPHONE XR DE 64 GB</th>
+  </tr>
+
+  <tr>
+    <th>ROBERTO FRANCO SUAREZ</th>
+    <th>09121116988 </th>
+    <th>ROBERTO_1011@GMAIL.COM</th>
+      <th>COMPRAS:</th>
+      <th>BUENAS NOCHE,COMPRA UNOS AUFIONOS APPLES DE 4TA GENERACION</th>
+  </tr>
+
+  <tr>
+    <th>LUCIA MARLENE SUAREZ</th>
+    <th>09113416988 </th>
+    <th>LUCIA@GMAIL.COM</th>
+      <th>COMPRAS</th>
+      <th>BUENOS DIAS ME GUSTARIA COMPRAR UN CARGADOR APPLES 20W</th>
+  </tr>
+
+</table>
+    </CENTER>
+
+</body>
+</html>
+{% endblock %}

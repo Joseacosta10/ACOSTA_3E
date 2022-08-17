@@ -1,0 +1,120 @@
+{% extends 'herencias/computadora.html' %}
+{% block titulo %}
+CATALOGO DE PRODUCTO
+{% endblock %}
+{% block contenido  %}
+{% load static %}
+<center>
+  <h4>CATALOGO DE PRODUCTO Y PRECIO</h4>
+<IMG src="{% static 'core/imagen_jose/15.jpg' %}">
+
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+
+}
+
+td, th {
+  border: 1px solid #0f1010;
+  text-align: left;
+  padding: 16px;
+  font-size: 24pt;
+  color : #f5f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #0a8563;
+  font-size: 24pt;
+  color : #0a0a0a;
+}
+</style>
+</head>
+<body>
+<table>
+  <tr>
+    <th>CODIGO DE PRODUCTO</th>
+    <th>DESCRIPCION DE PRODUCTO </th>
+    <th>PRECIO DEL PRODUCTO</th>
+  </tr>
+  <tr>
+    <td>PC001</td>
+    <td>PHONE 13 DE 64 GB</td>
+    <td>$800,00</td>
+
+  </tr>
+  <tr>
+    <td>PC002</td>
+    <td>MONITOR APPLES</td>
+    <td>$400,00</td>
+
+      <tr>
+    <td>PC003</td>
+    <td>AIRPODS MAX APLLES</td>
+    <td>$200,00</td>
+  </tr>
+
+      <tr>
+    <td>PC008</td>
+    <td>AIRPODS 4TA GENERACION</td>
+    <td>$300,00</td>
+  </tr>
+
+
+     <tr>
+       <td>PC004</td>
+    <td>LAPTO APPLE</td>
+    <td>$900,00</td>
+  </tr>
+
+  <tr>
+    <td>PC005</td>
+    <td>MAC APPLE</td>
+    <td>$1,200</td>
+  </tr>
+
+  <tr>
+    <td>PC006</td>
+    <td>PHONE XR DE 12 GB COLOR ROSA</td>
+    <td>$400,00</td>
+  </tr>
+
+  <tr>
+    <td>PC007</td>
+    <td>CARGADOR APPLE 20W</td>
+    <td>$20,00</td>
+  </tr>
+
+  <tr>
+    <td>PC009</td>
+    <td> WATCH SERIA 7</td>
+    <td>$610,00</td>
+  </tr>
+
+  <tr>
+    <td>PC010</td>
+    <td> WATCH SERIA 5</td>
+    <td>$310,00</td>
+  </tr>
+
+  <tr>
+    <td>PC011</td>
+    <td> MacBook Air</td>
+    <td>$1,110</td>
+  </tr>
+
+  <tr>
+    <td>PC012</td>
+    <td> IPHONE SE 3RA GENERACION</td>
+    <td>$450,00</td>
+  </tr>
+
+</table>
+    </CENTER>
+
+</body>
+</html>
+{% endblock %}

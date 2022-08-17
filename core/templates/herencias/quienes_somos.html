@@ -1,0 +1,156 @@
+{% extends 'herencias/computadora.html' %}
+{% block titulo %}
+BIOGRAFIA
+{% endblock %}
+{% block contenido  %}
+<center>
+    <h4> QUIENES SOMOS</h4>
+    {% load static %}
+    <IMG src="{% static 'core/imagen_jose/logo.jpg' %}">
+
+    <h4>DATOS PERSONALES</h4>
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+
+}
+
+td, th {
+  border: 1px solid #090909;
+  text-align: left;
+  padding: 16px;
+  font-size: 24pt;
+  color : #faf7f7;
+}
+
+tr:nth-child(even) {
+  background-color: #0a8563;
+  font-size: 24pt;
+  color : #f5f1f1;
+}
+</style>
+</head>
+<body>
+
+<table>
+  <tr>
+    <th>NOMBRE</th>
+    <th>ACOSTA FRANCO JOSE ROBERTO </th>
+
+  </tr>
+  <tr>
+    <td>EDAD</td>
+    <td>31 AÑOS</td>
+
+
+  </tr>
+  <tr>
+    <td>NACIONALIDAD:</td>
+    <td>ECUATORINO</td>
+
+
+      <tr>
+    <td>FECHA DE NACIMIENTO:</td>
+    <td>10 DE NOVIEMBRE DE 1990</td>
+  </tr>
+
+    <tr>
+    <td>ESTATURA:</td>
+    <td>1,74</td>
+  </tr>
+
+     <tr>
+    <td>SIGNO:</td>
+    <td>ESCORPIO</td>
+  </tr>
+
+      <tr>
+    <td>OCUPACION:</td>
+    <td>ESTUDIANTE,COMERCIANTE</td>
+  </tr>
+
+
+     <tr>
+       <td>NOMBRE DEL COMERCIAL:</td>
+    <td>PC_PARTE& MOVILES</td>
+  </tr>
+
+    <tr>
+       <td>HINCHA DE EQUIPO:</td>
+    <td>BARCELONA</td>
+  </tr>
+
+
+
+
+</table>
+    {% load static %}
+<IMG src="{% static 'core/imagen_jose/jose.jpeg' %}">
+
+<h4>DATOS PERSONALES</h4>
+
+
+<table>
+  <tr>
+    <th>NOMBRE</th>
+    <th>FIORELLA GURUMENDI </th>
+
+  </tr>
+  <tr>
+    <td>EDAD</td>
+    <td>21 AÑOS</td>
+
+
+  </tr>
+  <tr>
+    <td>NACIONALIDAD</td>
+    <td>ECUATORINA</td>
+
+
+      <tr>
+    <td>FECHA DE NACIMIENTO</td>
+    <td>22 DE ENERO DE 2001</td>
+  </tr>
+
+     <tr>
+    <td>ESTATURA</td>
+    <td>1,54</td>
+  </tr>
+
+     <tr>
+    <td>SIGNO</td>
+    <td>ACUARIO</td>
+  </tr>
+
+      <tr>
+    <td>OCUPACION</td>
+    <td>ESTUDIANTE,COMERCIANTE</td>
+  </tr>
+
+
+     <tr>
+       <td>NOMBRE DEL COMERCIAL</td>
+    <td>PC_PARTE& MOVILES</td>
+  </tr>
+
+    <tr>
+       <td>HINCHA DE EQUIPO:</td>
+    <td>BARCELONA</td>
+  </tr>
+
+
+
+</table>
+    {% load static %}
+<IMG src="{% static 'core/imagen_jose/fiu.jpeg' %}">
+
+
+    </CENTER>
+
+</body>
+</html>
+{% endblock %}

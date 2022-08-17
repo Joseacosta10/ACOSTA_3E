@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NOTICIAS</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'core/css/estilos.css' %}">
+    <link rel="stylesheet" href="{% static 'core/css/menuUniverso.css' %}">
+</head>
+<body>
+<div class="nav">
+	<nav class="menuCSS3">
+			<ul>
+				<li><a href="{% url 'core' %}">INICIO</a></li>
+				<li><a href="{% url 'noticias' %}">NOTICIAS</a></li>
+				<li><a href="{% url 'deportes' %}">DEPORTES</a></li>
+				</li>
+			</ul>
+	</nav>
+</div>
+<h1> ACOSTA JOSE ROBERTO 3E </h1>
+<footer class="footer">
+	SISTEMA CON DJANGO 3E DERECHOS RESERVADOS
+</footer>
+</body>
+</html>
